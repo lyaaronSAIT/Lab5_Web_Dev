@@ -1,0 +1,141 @@
+/* site defaults*/
+
+body {
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.flex {
+    display: flex;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #FCFFD8;
+}
+
+main {
+    background-color: #FCFFD8;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #F49A25;
+    cursor: pointer;
+}
+
+header, footer {
+    background-color:#0C373D;
+}
+
+footer {
+    height: 100px;
+    color: #FCFFD8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Index Styling*/
+
+.about-team-fairshare p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+main img {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.fidelty-button, .comments-button {
+    background-color:#0C373D;
+    color: #FCFFD8;
+    border: 1px solid black;
+    line-height: 4;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 30px;
+    margin-left: 20%;
+
+}
+
+.fidelty-button:hover, .comments-button:hover {
+    text-decoration: underline;
+    color: #F49A25;
+    cursor: pointer;
+}
+
+/*Fidetly Styling*/
+
+.fidelty-sketches-page h3, h2 {
+    text-align: center;
+}
+
+.low-fid1 img {
+    margin-left: 10%;
+}
+
+.low-fid2 img {
+    margin-left: 5%;
+}
+
+.med-fid1 img {
+    width: 700px;
+    height: 400px;
+    margin-left: 15%;
+}
+
+.med-fid2 img {
+    margin-left: 25%;
+}
+
+.high-fid1 img {
+    width: 900px;
+    height: 500px;
+    margin-left: 3%;
+}
+
+.high-fid2 img {
+    width: 900px;
+    height: 500px;
+    margin-left: 3%;
+}
+
+/*Comments Page*/
+
+.comments {
+    height: 500px;
+}
+
+.comments label {
+    margin-left: 20%;
+}
+
+textarea{
+    height: 150px;
+    width: 300px;
+    margin-left: 24px;
+}
+
+.submit-hover {
+    margin-left: 44%;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
